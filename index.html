@@ -24,7 +24,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="src/img/logo.png" alt="salattafood-brand" height="35">
+          <img src="src/img/logo.png" alt="salattafood-brand" height="40">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,9 +42,9 @@
               <a class="nav-link" href="#">Quem Somos</a>
             </li>
             <li class="nav-item">
-              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modal-contato">
+              <a class="nav-link" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">
                 Contato
-              </button>
+              </a>
             </li>
           </ul>
         </div>
@@ -185,34 +185,33 @@
   <!-- Modal -->
   <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+      <dialog class="modal-content">
+        <header class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Fale Conosco</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+            <span aria-hidden="true"></span>
           </button>
-        </div>
-        <form>
-          <div class="form-group">
-            <label for="formGroupExampleInput" class="form-label">Example Label</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
-          </div>
-        </form>
-        <div class="modal-body">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
+        </header>
+        <main class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">Nome Completo</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite seu nome completo">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Digite uma mensagem</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Digite aqui sua mensagem"></textarea>
+            </div>
+          </form>
+        </main>
+        <footer class="modal-footer">
+          <button type="button" class="btn botao-cor-especial">Enviar</button>
+        </footer>
+      </dialog>
     </div>
   </div>
 
