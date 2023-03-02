@@ -2,9 +2,14 @@
     max-width: 18rem;
 }
 
+.col {
+    display: flex;
+    justify-content: center;
+    
+}
+
 .imagem-carrossel {
     object-fit: cover;
-    object-position: 0 80%;
     height: 600px;
 }
 
@@ -15,19 +20,33 @@
 
 .fonte-titulo {
     font-family: 'Pacifico', cursive;
+    color: whitesmoke;
 }
 
 .cor-especial {
-    color: darkred;
+    color: #8cb369;
+}
+
+.navbar-brand {
+    padding-left: 30px;
+}
+
+.navbar-nav {
+    font-weight: 500; 
+    padding-right: 30px;  
+}
+
+.container-fluid {
+    align-items: center;
 }
 
 .botao-cor-especial {
-    background-color: darkred;
+    background-color: #8cb369;
     color: white;
 }
 
 .borda-cor-especial {
-    border-color: darkred;
+    border-color: #8cb369;
 }
 
 .card-posicao-imagem {
