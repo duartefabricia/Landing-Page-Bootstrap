@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .card-largura {
     max-width: 18rem;
 }
@@ -5,7 +10,7 @@
 .col {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .imagem-carrossel {
@@ -18,6 +23,106 @@
     height: 600px;
 }
 
+.logo {
+    height: 410px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    margin: auto;
+    display: block;
+}
+
+.first {
+    margin: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.frutas {
+    height: 800px;
+}
+
+.smoothie {
+    height: 800px;
+}
+
+.bg-branco {
+    background-color: white;
+}
+
+.bg-verde {
+    background-color: #a7c957;
+}
+
+.second {
+    margin: 8%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    justify-content: space-evenly;
+}
+
+.textos1 {
+    width: 500px;
+}
+
+.textos2 {
+        width: 500px;
+}
+
+.texto1 {
+    font-size: 40px;
+    color: #8cb369;
+    font-family: 'Poppins';
+    padding-left: 100px;
+    padding-bottom: 10px;
+    text-align: left;
+    width: 500px;
+}
+
+.texto2 {
+    color: #666666;
+    font-size: 17px;
+    font-family: 'Poppins';
+    padding-left: 100px;
+}
+
+.texto3 {
+    width: 450px;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Poppins';
+    padding-bottom: 10px;
+}
+
+.texto4 {
+    color: #666666;
+    font-size: 17px;
+    font-family: 'Poppins';
+    padding-bottom: 15px;
+}
+
+.text-center {
+    color: #666666;
+    font-family: 'Poppins';
+}
+
+.card-title {
+    font-family: 'Poppins';
+    color: #666666;
+}
+
+.card-text {
+    font-family: 'Poppins';
+    color: #666666;
+}
+
+.btn {
+    font-family: 'Poppins';
+    color: #666666;
+}
+
 .fonte-titulo {
     font-family: 'Pacifico', cursive;
     color: whitesmoke;
@@ -27,17 +132,22 @@
     color: #8cb369;
 }
 
+.nav ul li a:hover {
+    color: #8cb369;
+}
+
 .navbar-brand {
-    padding-left: 30px;
+    padding-left: 100px;
 }
 
 .navbar-nav {
-    font-weight: 500; 
-    padding-right: 30px;  
+    font-weight: 500;
+    padding-right: 100px;
 }
 
-.container-fluid {
-    align-items: center;
+.nav-link {
+    font-family: 'Poppins';
+    color: #666666;
 }
 
 .botao-cor-especial {
