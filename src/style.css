@@ -60,12 +60,13 @@
 }
 
 .descricao {
-    padding-left: 30px;
-    width: 50%;
+    padding-top: 50px;
+    padding-left: 800px;
+    width: 90%;
 }
 
 .apresentacao-final {
-    background-color: #a7c957;
+    background-color: #6a994e;
     padding-bottom: 40px;
     padding-top: 40px;
 }
@@ -96,7 +97,7 @@
 }
 
 .texto2 {
-    color: #383838;
+    color: #1b1b1b;
     font-size: 17px;
     font-family: 'Poppins';
     padding-left: 100px;
@@ -111,26 +112,32 @@
     font-weight: 600;
 }
 
+.texto-titulo {
+    font-weight: 600;
+} 
+
 .texto4 {
-    color: #383838;
+    color: #1b1b1b;
     font-size: 17px;
     font-family: 'Poppins';
     padding-bottom: 15px;
 }
 
 .text-center {
-    color: #383838;
+    color: #1b1b1b;
     font-family: 'Poppins';
 }
 
 .card-title {
-    font-family: 'Poppins';
-    color: #383838;
+    font-size: 22px;
+    font-weight: 600;
+    color: #6a994e;
 }
 
 .card-text {
     font-family: 'Poppins';
-    color: #383838;
+    color: #1b1b1b;
+    font-size: 15px;
 }
 
 .titulo {
@@ -140,7 +147,7 @@
 
 .btn {
     font-family: 'Poppins';
-    color: #383838;
+    color: #1b1b1b;
     font-weight: 600;
 }
 
@@ -169,12 +176,17 @@
 
 .nav-link {
     font-family: 'Poppins';
-    color: #666666;
+    color: #1b1b1b;
 }
 
 .botao-cor-especial {
     background-color: #6a994e;
     color: white;
+}
+
+.botao-cor-especial2 {
+    background-color: #ffffff;
+    color: #6a994e;
 }
 
 .borda-cor-especial {
@@ -191,12 +203,8 @@
 }
 
 .receita {
-    color: #383838;
+    color: #1b1b1b;
     font-family: 'Poppins';
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .titulo-receita {
@@ -251,4 +259,78 @@
 
 .final {
     padding-left: 30px;
+}
+
+.rect {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 25%; /* ajuste o tamanho do retângulo como desejado */
+    background-color: #6a994e; /* cor do retângulo */
+  }
+
+.abacate {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#quem-somos {
+    padding: 50px 0;
+    height: 700px;
+    text-align: center;
+    background-color: #6a994e;
+    font-family: 'Poppins';
+}
+  
+.equipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+  
+.membro {
+    margin: 20px;
+    text-align: center;
+}
+  
+.membro img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+  
+.membro h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+  
+.membro p {
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.nome {
+    color: white;
+}
+
+.titulo-quemsomos {
+    padding-top: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.texto-quemsomos {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 450px;
+    padding-right: 450px;
+    font-size: 16px;
+    color: #1b1b1b;
 }
